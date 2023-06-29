@@ -1,0 +1,177 @@
+img {
+	width: 500px;
+}
+
+#banner { 
+	width: 100%; 
+}
+
+#bannerDesc > p{ 
+	font-size : 25px;
+	line-height: 30px;
+	font-weight: bold;
+ }
+
+ #bannerDesc > h3{
+ 	font-size: 32px;
+ 	line-height: 40px;
+ }
+
+.name{
+	font-size:20px;
+	letter-spacing: 10px;
+}
+
+ .map{
+ 	height:220px;
+ }
+
+ .post{
+ 	width:220;
+ 	height:294;
+ 	object-fit:cover;
+ 	border-radius:20px;
+ }
+
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ #top{
+ 	display:flex;
+ }
+
+ #banner{ 
+ 	width: 100%;
+ 	position:relative;
+  }
+
+ #bannerDesc{
+ 	width:45%;
+ 	height:30vh;
+ 	padding: 3%;
+ 	text-align:justify;
+ 	border-radius: 20px;
+  	position:absolute;
+  	top:35%;
+  	left:24%;
+ }
+
+ #bannerDesc > p{
+ 	font-size: 25px;
+ 	line-height: 30px;
+ 	font-weight: bold;
+ 	color:white;
+ 	text-shadow: #00 1px 0 10px;
+ }
+
+ #bannerDesc > h3{ 
+ 	font-size: 32px;
+ 	line-height: 40px;
+ 	font-weight: bold;
+ 	color:white;
+ 	text-shadow: #00 1px 0 10px;
+  }
+
+  header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.box{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	marign-top:2%;
+}
+
+.desc{
+	margin:2%;
+	padding:2%;
+}
+
+.social{
+	width:60px;
+	height:60px;
+	padding:1%;
+}
+
+.header{
+	font-size:25px;
+	font-weight:bold;
+	margin-bottom:2%;
+}
+
+#contactBox{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	padding:2%;
+}
+
+input{
+	width:60%;
+	height:30px;
+	margin:1%;
+}
+
+form{
+	padding:2%;
+}
+
+#submit{
+	padding:2%;
+	background-color: #ECFAFF;
+	width:20%;
+	border-radius: 5px;
+	align-content: center;
+	border: 2px solid darkblue;
+}
+
+#bottom{
+	text-align: center;
+	height:30vh;
+	padding:3%;
+	background-color: #F5F5F5;
+}
+
+.big{
+	width:40%;
+}
+
+.small{
+	width:20%;
+}
